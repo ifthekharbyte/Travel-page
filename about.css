@@ -1,0 +1,48 @@
+#main
+{
+
+    height: 800px;
+    background-image: url("images/places/philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#main-content
+{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 315px;
+    right: 325px;
+    width: 50%;
+}
+
+#main-content h1
+{
+    
+font-size: 35px;
+font-family: 'Raleway' , sans-serif;
+/* text-transform: uppercase; */
+margin: 0px;
+text-shadow: 2px 2px 2px rgb(0,0,0);
+
+background: rgb(233,220,215);
+background: linear-gradient(121deg, rgba(233,220,215,1) 2%, rgba(161,157,157,1) 31%, rgba(198,158,158,1) 61%, rgba(217,221,219,1) 98%);
+
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+border-radius: 10px;
+padding: 5px;
+
+}
+
+#main-content span
+{
+    font-size: 40px; 
+    border-radius: 8px;
+    padding: 5px;
+    line-height: 50px;
+
+
+}

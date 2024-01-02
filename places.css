@@ -1,9 +1,9 @@
 #page-logo a {
-    color: rgb(183, 230, 235);
+  color: rgb(183, 230, 235);
 }
 
 header a {
-    color: rgb(183, 230, 235);
+  color: rgb(183, 230, 235);
 }
 
 header {
@@ -11,8 +11,8 @@ header {
 }
 
 header nav a:hover {
-    background-color: rgb(183, 230, 235);
-    color: rgb(59, 59, 59);
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
 }
 
 body {
@@ -33,10 +33,8 @@ main ul {
   gap: 20px 20px;
 }
 
-li:nth-of-type(3)
-{
-    grid-column: 1 / 3;
-    
+li:nth-of-type(3) {
+  grid-column: 1 / 3;
 }
 
 main li {
@@ -44,7 +42,7 @@ main li {
   background-color: white;
   overflow: hidden;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-border-radius: 6px;
+  border-radius: 8px;
 }
 
 .item-content {
